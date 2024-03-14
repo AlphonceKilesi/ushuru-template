@@ -1,98 +1,50 @@
-.authBackground {
-  // background-image: linear-gradient(
-  //     rgba(14, 14, 24, 0.8),
-  //     rgba(35, 35, 54, 0.8)
-  //   ),
-  //   url("/assets/images/sean.jpg");
-
-  background-image: linear-gradient(
-     rgba(14, 14, 24, 0.8),
-     rgba(24, 21, 50, 0.705)
-  ),
-  url("/assets/images/background/bc2.jpg");
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  //opacity: 0.7;
-}
 
 .form-box {
-  border-radius: 10px;
-  width: 90%;
-  max-width: 600px;
+  border-radius: 40px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px #ddd;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #ffffff;
-  padding: 50px 50px 50px 50px;
+  padding: 30px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
 h6 {
   text-align: center;
-  color: #004400; /* Darker Green */
-  font-weight: 400;
+  color: black;
+  font-weight: bold;
   font-family: Georgia, serif;
+  
 }
 
 h3 {
   text-align: center;
-  color: #004400; /* Darker Green */
-  font-weight: 500;
+  color: black;
+  font-weight: bold;
   font-family: Georgia, serif;
+  
 }
 
 h2 {
   text-align: center;
-  color: #004400; /* Darker Green */
-  font-weight: 600;
+  color: black;
+  font-weight: bold;
   font-family: Georgia, serif;
 }
 
 
-// *****************************************************************************************************************************************************************************
-
-// .authBackground {
-//   // background-image: linear-gradient(
-//   //     rgba(14, 14, 24, 0.8),
-//   //     rgba(35, 35, 54, 0.8)
-//   //   ),
-//   //   url("/assets/images/sean.jpg");
-
-//   background-image: linear-gradient(
-//      rgba(20, 20, 61, 0.586),
-//      rgba(16, 14, 40, 0.586)
-//   ),
-//   // url("/assets/images/sean.jpg");
-//   url("/assets/images/Kamp1.png");
-
-  
-
-//   height: 100vh;
-//   width: 100%;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   position: relative;
-//   //opacity: 0.7;
-// }
-
-// .form-box {
-//   border-radius: 10px;
-//   width: 90%;
-//   max-width: 600px;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   background: #ffffff;
-//   padding: 50px 50px 50px 50px;
-//   text-align: center;
-//   background-color: rgba(255, 255, 255, 0.808);
-// }
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to 100% of the viewport */
+  background-color: #ffffff;
+}
